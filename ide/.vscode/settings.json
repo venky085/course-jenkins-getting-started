@@ -1,14 +1,14 @@
 {
   "jenkins-runner.jobs": {
     "ide": {
-      "runWith": "pipelines-8080",
+      "runWith": "pipelines-9080",
       "name": "ide",
       "isDefault": true
     }
   },
   "jenkins-runner.hostConfigs": {
-    "pipelines-8080": {
-      "url": "http://localhost:8080",
+    "pipelines-9080": {
+      "url": "http://localhost:9080",
       "user": "admin",
       "password": "admin",
       "useCrumbIssuer": true
